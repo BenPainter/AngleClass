@@ -2,9 +2,10 @@
 
 
 /***************************************************
+* Angle Class
 *
-*
-*
+* Stores one angle as an attribute.
+* It can convert between radians and degrees
 ****************************************************/
 class Angle
 {
