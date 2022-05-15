@@ -75,7 +75,7 @@ void Angle::display() const
 ****************************************************/
 double Angle::convertToDegrees(double radians) const
 {
-	return (radians / (2.00 * M_PI)) * 360;
+	return (radians / (2.00 * M_PI)) * 360.00;
 }
 
 
@@ -96,6 +96,6 @@ double Angle::normalize(double angle) const
 {
 	// an if statement could be used, but it might more costly than 
 	// just performing the math every time
-	return angle - floor(angle / (2 * M_PI)) * (2 * M_PI);
+	return angle - floor(angle / (2.00 * M_PI)) * (2.00 * M_PI);
 }
 
