@@ -14,6 +14,10 @@ using namespace std;
 * degrees, display it in degrees, and normalizes it.
 ****************************************************/
 
+Angle::Angle() 
+{
+	angleRadians = 0.0;
+}
 
 // Public
 /***************************************************

@@ -9,6 +9,8 @@
 ****************************************************/
 class Angle
 {
+	Angle();
+
 private:
 	double angleRadians;
 
