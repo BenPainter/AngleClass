@@ -9,12 +9,17 @@
 ****************************************************/
 class Angle
 {
-	Angle();
+	
 
 private:
 	double angleRadians;
 
 public:
+
+	Angle();
+	Angle(double angleDegrees);
+	Angle(const Angle& rhs);
+
 	// return an angle in degrees
 	double getDegrees() const;
 

@@ -14,9 +14,18 @@ using namespace std;
 * degrees, display it in degrees, and normalizes it.
 ****************************************************/
 
-Angle::Angle() 
+Angle::Angle() : angleRadians(0.0)
 {
-	angleRadians = 0.0;
+
+}
+
+Angle::Angle(double angleDegrees)
+{
+	setDegrees(angleDegrees);
+}
+
+Angle::Angle(const Angle& rhs) : angleRadians(rhs.angleRadians)
+{
 }
 
 // Public
