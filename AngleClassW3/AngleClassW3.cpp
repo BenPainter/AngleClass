@@ -63,10 +63,20 @@ int main()
         << endl;
 
    //test case 6: copy constructor
-   //Input: create a copy constructor
+   //Input: create a copy of testAngle
+   cout << "\nTest Case 6\n";
+   Angle testCopy(testAngle);
 
-   //test case 7: constructor with degrees as a parameter 
-   //Input: creating a Angle that is given 180 degrees as a parameter
+   //Output: 180 Degrees
+   testCopy.display();
 
+   //test case 7: non-default constructor with degrees as a parameter 
+   //Input: creating a Angle that is given 1081 degrees as a parameter
+   cout << "\nTest Case 7\n";
+
+   Angle testDegrees(1081);
+
+   //Output: 1 Degrees
+   testDegrees.display();
    
 }
