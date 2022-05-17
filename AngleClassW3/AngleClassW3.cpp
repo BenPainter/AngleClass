@@ -62,6 +62,11 @@ int main()
    cout << "\tThis is in radians: " << testAngle.getRadians()
         << endl;
 
+   //test case 6: copy constructor
+   //Input: create a copy constructor
+
+   //test case 7: constructor with degrees as a parameter 
+   //Input: creating a Angle that is given 180 degrees as a parameter
 
    
 }

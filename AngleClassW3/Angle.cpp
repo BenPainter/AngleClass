@@ -26,6 +26,7 @@ Angle::Angle(double angleDegrees)
 
 Angle::Angle(const Angle& rhs) : angleRadians(rhs.angleRadians)
 {
+
 }
 
 // Public
